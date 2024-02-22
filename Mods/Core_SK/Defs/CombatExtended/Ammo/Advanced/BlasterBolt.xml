@@ -30,7 +30,7 @@
 			<li>AmmoBlasterBolt</li>
 		</thingCategories>
 		<graphicData>
-			<texPath>Things/Ammo/Charged/Concentrated</texPath>
+			<texPath>Things/Ammo/Charged/LargeConc</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
@@ -41,6 +41,9 @@
 		<tradeability>Sellable</tradeability>
 		<destroyOnDrop>False</destroyOnDrop>
 		<ammoClass>ChargedAP</ammoClass>
+		<thingSetMakerTags>
+			<li>HSKCombatSuppliesAmmoAC</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>0.7</explosiveRadius>

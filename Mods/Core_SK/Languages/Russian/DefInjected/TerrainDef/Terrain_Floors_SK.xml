@@ -29,7 +29,7 @@
 	<RedWoodFloorC.description>Бледный, красивый паркет из аккуратно обработанных досок из красного дерева.</RedWoodFloorC.description>
 
 	<RedWoodFloorD.label>Звездный паркет из красного дерева</RedWoodFloorD.label>
-	<RedWoodFloorD.description>Роскошный пол из красного дерева. Для самых изысканных комнат и требовательных колонистов.</RedWoodFloorD.description>
+	<RedWoodFloorD.description>Роскошный пол из красного дерева. Для самых изысканных комнат и требовательных поселенцев.</RedWoodFloorD.description>
 
 	<RedWoodFloorE.label>Темный паркет из красного дерева</RedWoodFloorE.label>
 	<RedWoodFloorE.description>Изысканный паркет из красного дерева. Это придаст атмосферу роскоши и изысканности в любой комнате.</RedWoodFloorE.description>
@@ -61,7 +61,7 @@
 	<WoodPlankFloorSix.description>Деревянный паркет. Тёплый, уютный.</WoodPlankFloorSix.description>
 
 	<ParquetFloor.label>Паркет тип 7</ParquetFloor.label>
-	<ParquetFloor.description>Полы ёлочкой. Королевская элегантность для изысканного колониста.</ParquetFloor.description>
+	<ParquetFloor.description>Полы ёлочкой. Королевская элегантность для изысканного поселенца.</ParquetFloor.description>
 
 	<!-- ================= Misc Tile ================= -->
 
@@ -142,7 +142,7 @@
 	<GoldSolid.label>Пол из золота</GoldSolid.label>
 	<GoldSolid.description>Ну вы и богач.</GoldSolid.description>
 
-	
+
 	<RoughSandstoneFloor.label>Пол из грубого песчаника</RoughSandstoneFloor.label>
 	<RoughSandstoneFloor.description>Песчаник в первозданном виде.</RoughSandstoneFloor.description>
 
@@ -161,7 +161,19 @@
 	<RoughCeramicsFloor.label>Пол из грубой керамики</RoughCeramicsFloor.label>
 	<RoughCeramicsFloor.description>Керамика в первозданном виде.</RoughCeramicsFloor.description>
 
+	<RoughBasaltFloor.label>Пол из грубого базальта</RoughBasaltFloor.label>
+	<RoughBasaltFloor.description>Базальт в первозданном виде.</RoughBasaltFloor.description>
+
+	<RoughDuniteFloor.label>Пол из грубого дунита</RoughDuniteFloor.label>
+	<RoughDuniteFloor.description>Дунит в первозданном виде.</RoughDuniteFloor.description>
+
+	<RoughPegmatiteFloor.label>Пол из грубого пегматита</RoughPegmatiteFloor.label>
+	<RoughPegmatiteFloor.description>Пегматит в первозданном виде.</RoughPegmatiteFloor.description>
+
+	<RoughAlabasterFloor.label>Пол из грубого алебастра</RoughAlabasterFloor.label>
+	<RoughAlabasterFloor.description>Алебастр в первозданном виде.</RoughAlabasterFloor.description>
 	
+
 	<FloorStoneSlabsSandstone.label>Аккуратные пластины из песчаника</FloorStoneSlabsSandstone.label>
 	<FloorStoneSlabsSandstone.description>Каменный пол из аккуратных квадратных плит песчаника.</FloorStoneSlabsSandstone.description>
 
@@ -180,7 +192,19 @@
 	<FloorStoneSlabsCeramics.label>Аккуратные пластины из керамики</FloorStoneSlabsCeramics.label>
 	<FloorStoneSlabsCeramics.description>Каменный пол из аккуратных квадратных плит керамики.</FloorStoneSlabsCeramics.description>
 
+	<FloorStoneSlabsBasalt.label>Аккуратные пластины из базальта</FloorStoneSlabsBasalt.label>
+	<FloorStoneSlabsBasalt.description>Каменный пол из аккуратных квадратных плит базальта.</FloorStoneSlabsBasalt.description>
+
+	<FloorStoneSlabsDunite.label>Аккуратные пластины из дунита</FloorStoneSlabsDunite.label>
+	<FloorStoneSlabsDunite.description>Каменный пол из аккуратных квадратных плит дунита.</FloorStoneSlabsDunite.description>
 	
+	<FloorStoneSlabsPegmatite.label>Аккуратные пластины из пегматита</FloorStoneSlabsPegmatite.label>
+	<FloorStoneSlabsPegmatite.description>Каменный пол из аккуратных квадратных плит пегматита.</FloorStoneSlabsPegmatite.description>
+
+	<FloorStoneSlabsAlabaster.label>Аккуратные пластины из алебастра</FloorStoneSlabsAlabaster.label>
+	<FloorStoneSlabsAlabaster.description>Каменный пол из аккуратных квадратных плит алебастра.</FloorStoneSlabsAlabaster.description>
+	
+
 	<FloorStoneHexSandstone.label>6-угольные пластины из песчаника</FloorStoneHexSandstone.label>
 	<FloorStoneHexSandstone.description>Каменный пол из аккуратных шестиугольных плит песчаника.</FloorStoneHexSandstone.description>
 
@@ -198,6 +222,18 @@
 	
 	<FloorStoneHexCeramics.label>6-угольные пластины из керамики</FloorStoneHexCeramics.label>
 	<FloorStoneHexCeramics.description>Каменный пол из аккуратных шестиугольных плит керамики.</FloorStoneHexCeramics.description>
+
+	<FloorStoneHexBasalt.label>6-угольные пластины из базальта</FloorStoneHexBasalt.label>
+	<FloorStoneHexBasalt.description>Каменный пол из аккуратных шестиугольных плит базальта.</FloorStoneHexBasalt.description>
+
+	<FloorStoneHexDunite.label>6-угольные пластины из дунита</FloorStoneHexDunite.label>
+	<FloorStoneHexDunite.description>Каменный пол из аккуратных шестиугольных плит дунита.</FloorStoneHexDunite.description>
+	
+	<FloorStoneHexPegmatite.label>6-угольные пластины из пегматита</FloorStoneHexPegmatite.label>
+	<FloorStoneHexPegmatite.description>Каменный пол из аккуратных шестиугольных плит пегматита.</FloorStoneHexPegmatite.description>
+
+	<FloorStoneHexAlabaster.label>6-угольные пластины из алебастра</FloorStoneHexAlabaster.label>
+	<FloorStoneHexAlabaster.description>Каменный пол из аккуратных шестиугольных плит алебастра.</FloorStoneHexAlabaster.description>
 
 	
 	<FloorStoneMosaicSandstone.label>Мозаика из песчаника</FloorStoneMosaicSandstone.label>
@@ -221,6 +257,18 @@
 	<FloorStoneMosaicCeramics.label>Мозаика из керамики</FloorStoneMosaicCeramics.label>
 	<FloorStoneMosaicCeramics.description>Каменный пол из аккуратной керамической мозаики.</FloorStoneMosaicCeramics.description>
 
+	<FloorStoneMosaicBasalt.label>Мозаика из базальта</FloorStoneMosaicBasalt.label>
+	<FloorStoneMosaicBasalt.description>Каменный пол из аккуратной базальтовой мозаики.</FloorStoneMosaicBasalt.description>
+
+	<FloorStoneMosaicDunite.label>Мозаика из дунита</FloorStoneMosaicDunite.label>
+	<FloorStoneMosaicDunite.description>Каменный пол из аккуратной дунитовой мозаики.</FloorStoneMosaicDunite.description>
+
+	<FloorStoneMosaicPegmatite.label>Мозаика из пегматита</FloorStoneMosaicPegmatite.label>
+	<FloorStoneMosaicPegmatite.description>Каменный пол из аккуратной пегматитовой мозаики.</FloorStoneMosaicPegmatite.description>
+
+	<FloorStoneMosaicAlabaster.label>Мозаика из алебастра</FloorStoneMosaicAlabaster.label>
+	<FloorStoneMosaicAlabaster.description>Каменный пол из аккуратной алебастровой мозаики.</FloorStoneMosaicAlabaster.description>
+
 	
 	<FloorStoneRoughSandstone.label>Грубые блоки песчаника</FloorStoneRoughSandstone.label>
 	<FloorStoneRoughSandstone.description>Каменный пол из грубых блоков песчаника.</FloorStoneRoughSandstone.description>
@@ -240,6 +288,18 @@
 	<FloorStoneRoughCeramics.label>Грубые блоки керамики</FloorStoneRoughCeramics.label>
 	<FloorStoneRoughCeramics.description>Каменный пол из грубых блоков керамики.</FloorStoneRoughCeramics.description>
 
+	<FloorStoneRoughBasalt.label>Грубые блоки базальта</FloorStoneRoughBasalt.label>
+	<FloorStoneRoughBasalt.description>Каменный пол из грубых блоков базальта.</FloorStoneRoughBasalt.description>
+
+	<FloorStoneRoughDunite.label>Грубые блоки дунита</FloorStoneRoughDunite.label>
+	<FloorStoneRoughDunite.description>Каменный пол из грубых блоков дунита.</FloorStoneRoughDunite.description>
+	
+	<FloorStoneRoughPegmatite.label>Грубые блоки пегматита</FloorStoneRoughPegmatite.label>
+	<FloorStoneRoughPegmatite.description>Каменный пол из грубых блоков пегматита.</FloorStoneRoughPegmatite.description>
+
+	<FloorStoneRoughAlabaster.label>Грубые блоки алебастра</FloorStoneRoughAlabaster.label>
+	<FloorStoneRoughAlabaster.description>Каменный пол из грубых блоков алебастра.</FloorStoneRoughAlabaster.description>
+
 	
 	<FloorStoneRandomSandstone.label>случайное мощение (песчаник)</FloorStoneRandomSandstone.label>
 	<FloorStoneRandomSandstone.description>Каменный пол из прямоугольных и квадратных блоков песчаника, расположенных случайным образом.</FloorStoneRandomSandstone.description>
@@ -251,38 +311,62 @@
 	<FloorStoneRandomLimestone.description>Каменный пол из прямоугольных и квадратных блоков известняка, расположенных случайным образом.</FloorStoneRandomLimestone.description>
 
 	<FloorStoneRandomSlate.label>случайное мощение (сланец)</FloorStoneRandomSlate.label>
-	<FloorStoneRandomSlate.description>Каменный пол из из прямоугольных и квадратных блоков сланца, расположенных случайным образом.</FloorStoneRandomSlate.description>
+	<FloorStoneRandomSlate.description>Каменный пол из прямоугольных и квадратных блоков сланца, расположенных случайным образом.</FloorStoneRandomSlate.description>
 
 	<FloorStoneRandomMarble.label>случайное мощение (мрамор)</FloorStoneRandomMarble.label>
-	<FloorStoneRandomMarble.description>Каменный пол из из прямоугольных и квадратных блоков мрамора, расположенных случайным образом.</FloorStoneRandomMarble.description>
+	<FloorStoneRandomMarble.description>Каменный пол из прямоугольных и квадратных блоков мрамора, расположенных случайным образом.</FloorStoneRandomMarble.description>
 
 	<FloorStoneRandomClayBrick.label>случайное мощение (глиняный кирпич)</FloorStoneRandomClayBrick.label>
-	<FloorStoneRandomClayBrick.description>Каменный пол из из прямоугольных и квадратных блоков керамики, расположенных случайным образом.</FloorStoneRandomClayBrick.description>
+	<FloorStoneRandomClayBrick.description>Каменный пол из прямоугольных и квадратных блоков керамики, расположенных случайным образом.</FloorStoneRandomClayBrick.description>
 
 	<FloorStoneRandomCeramics.label>случайное мощение (керамика)</FloorStoneRandomCeramics.label>
-	<FloorStoneRandomCeramics.description>Каменный пол из из прямоугольных и квадратных блоков керамики, расположенных случайным образом.</FloorStoneRandomCeramics.description>
+	<FloorStoneRandomCeramics.description>Каменный пол из прямоугольных и квадратных блоков керамики, расположенных случайным образом.</FloorStoneRandomCeramics.description>
+
+	<FloorStoneRandomBasalt.label>случайное мощение (базальт)</FloorStoneRandomBasalt.label>
+	<FloorStoneRandomBasalt.description>Каменный пол из прямоугольных и квадратных блоков базальта, расположенных случайным образом.</FloorStoneRandomBasalt.description>
+
+	<FloorStoneRandomDunite.label>случайное мощение (дунит)</FloorStoneRandomDunite.label>
+	<FloorStoneRandomDunite.description>Каменный пол из прямоугольных и квадратных блоков дунита, расположенных случайным образом.</FloorStoneRandomDunite.description>
+
+	<FloorStoneRandomPegmatite.label>случайное мощение (пегматит)</FloorStoneRandomPegmatite.label>
+	<FloorStoneRandomPegmatite.description>Каменный пол из прямоугольных и квадратных блоков пегматита, расположенных случайным образом.</FloorStoneRandomPegmatite.description>
+
+	<FloorStoneRandomAlabaster.label>случайное мощение (алебастр)</FloorStoneRandomAlabaster.label>
+	<FloorStoneRandomAlabaster.description>Каменный пол из прямоугольных и квадратных блоков алебастра, расположенных случайным образом.</FloorStoneRandomAlabaster.description>
 
 
 	<FloorStoneStaggeredSandstone.label>шахматная плитка (песчаник)</FloorStoneStaggeredSandstone.label>
 	<FloorStoneStaggeredSandstone.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredSandstone.description>
 
 	<FloorStoneStaggeredGranite.label>шахматная плитка (гранит)</FloorStoneStaggeredGranite.label>
-	<FloorStoneStaggeredGranite.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredGranite.description>
+	<FloorStoneStaggeredGranite.description>Плитка из гранита со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredGranite.description>
 
 	<FloorStoneStaggeredLimestone.label>шахматная плитка (известняк)</FloorStoneStaggeredLimestone.label>
-	<FloorStoneStaggeredLimestone.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredLimestone.description>
+	<FloorStoneStaggeredLimestone.description>Плитка из известняка со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredLimestone.description>
 
 	<FloorStoneStaggeredSlate.label>шахматная плитка (сланец)</FloorStoneStaggeredSlate.label>
-	<FloorStoneStaggeredSlate.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredSlate.description>
+	<FloorStoneStaggeredSlate.description>Плитка из сланца со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredSlate.description>
 
 	<FloorStoneStaggeredMarble.label>шахматная плитка (мрамор)</FloorStoneStaggeredMarble.label>
-	<FloorStoneStaggeredMarble.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredMarble.description>
+	<FloorStoneStaggeredMarble.description>Плитка из мрамора со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredMarble.description>
 
 	<FloorStoneStaggeredClayBrick.label>шахматная плитка (глиняный кирпич)</FloorStoneStaggeredClayBrick.label>
-	<FloorStoneStaggeredClayBrick.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredClayBrick.description>
+	<FloorStoneStaggeredClayBrick.description>Плитка из глиняного кирпича со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredClayBrick.description>
 
 	<FloorStoneStaggeredCeramics.label>шахматная плитка (керамика)</FloorStoneStaggeredCeramics.label>
-	<FloorStoneStaggeredCeramics.description>Плитка из песчаника со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredCeramics.description>
+	<FloorStoneStaggeredCeramics.description>Плитка из керамики со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredCeramics.description>
+
+	<FloorStoneStaggeredBasalt.label>шахматная плитка (базальт)</FloorStoneStaggeredBasalt.label>
+	<FloorStoneStaggeredBasalt.description>Плитка из базальта со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredBasalt.description>
+
+	<FloorStoneStaggeredDunite.label>шахматная плитка (дунит)</FloorStoneStaggeredDunite.label>
+	<FloorStoneStaggeredDunite.description>Плитка из дунита со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredDunite.description>
+
+	<FloorStoneStaggeredPegmatite.label>шахматная плитка (пегматит)</FloorStoneStaggeredPegmatite.label>
+	<FloorStoneStaggeredPegmatite.description>Плитка из пегматита со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredPegmatite.description>
+
+	<FloorStoneStaggeredAlabaster.label>шахматная плитка (алебастр)</FloorStoneStaggeredAlabaster.label>
+	<FloorStoneStaggeredAlabaster.description>Плитка из алебастра со скругленными углами, уложенная в шахматном порядке.</FloorStoneStaggeredAlabaster.description>
 
 
 	<PlateCopperBar.label>Медные пластины</PlateCopperBar.label>
@@ -302,6 +386,9 @@
 
 	<PlateCeramics.label>Керамические пластины</PlateCeramics.label>
 	<PlateCeramics.description>Керамические пластины плотно подогнанные друг к другу. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</PlateCeramics.description>
+
+	<PlateBasalt.label>Базальтовые пластины</PlateBasalt.label>
+	<PlateBasalt.description>Базальтовые пластины плотно подогнанные друг к другу. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</PlateBasalt.description>
 
 	
 	<MBrickSandstone.label>Кирпичи из песчаника</MBrickSandstone.label>
@@ -324,10 +411,21 @@
 
 	<MBrickCeramics.label>Керамические кирпичи</MBrickCeramics.label>
 	<MBrickCeramics.description>Кирпичи, сложенные в узор.</MBrickCeramics.description>
-	
+
+	<MBrickBasalt.label>Базальтовые кирпичи</MBrickBasalt.label>
+	<MBrickBasalt.description>Кирпичи, сложенные в узор.</MBrickBasalt.description>
+
+	<MBrickDunite.label>Дунитовые кирпичи</MBrickDunite.label>
+	<MBrickDunite.description>Кирпичи, сложенные в узор.</MBrickDunite.description>
+
+	<MBrickPegmatite.label>Пегматитовые кирпичи</MBrickPegmatite.label>
+	<MBrickPegmatite.description>Кирпичи, сложенные в узор.</MBrickPegmatite.description>
+
+	<MBrickAlabaster.label>Алебастровые кирпичи</MBrickAlabaster.label>
+	<MBrickAlabaster.description>Кирпичи, сложенные в узор.</MBrickAlabaster.description>
 
 	
-	<SBrickSandstone.label>Малые кирпичи из песчаника</SBrickSandstone.label>
+	<SBrickSandstone.label>Песчаниковые малые кирпичи</SBrickSandstone.label>
 	<SBrickSandstone.description>Кирпичи, сложенные в узор.</SBrickSandstone.description>
 
 	<SBrickGranite.label>Гранитные малые кирпичи</SBrickGranite.label>
@@ -348,8 +446,17 @@
 	<SBrickCeramics.label>Керамические малые кирпичи</SBrickCeramics.label>
 	<SBrickCeramics.description>Кирпичи, сложенные в узор.</SBrickCeramics.description>
 
+	<SBrickDunite.label>Дунитовые малые кирпичи</SBrickDunite.label>
+	<SBrickDunite.description>Кирпичи, сложенные в узор.</SBrickDunite.description>
+
+	<SBrickPegmatite.label>Пегматитовые малые кирпичи</SBrickPegmatite.label>
+	<SBrickPegmatite.description>Кирпичи, сложенные в узор.</SBrickPegmatite.description>
+
+	<SBrickAlabaster.label>Алебастровые малые кирпичи</SBrickAlabaster.label>
+	<SBrickAlabaster.description>Кирпичи, сложенные в узор.</SBrickAlabaster.description>
+
 	
-	<MedBrickSandstone.label>Средиземноморские кирпичи из песчаника</MedBrickSandstone.label>
+	<MedBrickSandstone.label>Песчаниковые средиземноморские кирпичи</MedBrickSandstone.label>
 	<MedBrickSandstone.description>Кирпичи, сложенные в узор.</MedBrickSandstone.description>
 
 	<MedBrickGranite.label>Гранитные средиземноморские кирпичи</MedBrickGranite.label>
@@ -370,7 +477,19 @@
 	<MedBrickCeramics.label>Керамич. средиземноморские кирпичи</MedBrickCeramics.label>
 	<MedBrickCeramics.description>Кирпичи, сложенные в узор.</MedBrickCeramics.description>
 
-	
+	<MedBrickBasalt.label>Базальтовые средиземноморские кирпичи</MedBrickBasalt.label>
+	<MedBrickBasalt.description>Кирпичи, сложенные в узор.</MedBrickBasalt.description>
+
+	<MedBrickDunite.label>Дунитовые средиземноморские кирпичи</MedBrickDunite.label>
+	<MedBrickDunite.description>Кирпичи, сложенные в узор.</MedBrickDunite.description>
+
+	<MedBrickPegmatite.label>Пегматитовые средиземноморские кирпичи</MedBrickPegmatite.label>
+	<MedBrickPegmatite.description>Кирпичи, сложенные в узор.</MedBrickPegmatite.description>
+
+	<MedBrickAlabaster.label>Алебастровые средиземноморские кирпичи</MedBrickAlabaster.label>
+	<MedBrickAlabaster.description>Кирпичи, сложенные в узор.</MedBrickAlabaster.description>
+
+
 	<CobbleFloorSandstone.label>Песчаниковый мощёный пол</CobbleFloorSandstone.label>
 	<CobbleFloorSandstone.description>Простой пол из каменных блоков.</CobbleFloorSandstone.description>
 
@@ -385,9 +504,21 @@
 
 	<CobbleFloorMarble.label>Мраморный мощёный пол</CobbleFloorMarble.label>
 	<CobbleFloorMarble.description>Простой пол из каменных блоков.</CobbleFloorMarble.description>
+
+	<CobbleFloorBasalt.label>Базальтовый мощёный пол</CobbleFloorBasalt.label>
+	<CobbleFloorBasalt.description>Простой пол из каменных блоков.</CobbleFloorBasalt.description>
+
+	<CobbleFloorDunite.label>Дунитовый мощёный пол</CobbleFloorDunite.label>
+	<CobbleFloorDunite.description>Простой пол из каменных блоков.</CobbleFloorDunite.description>
+
+	<CobbleFloorPegmatite.label>Пегматитовый мощёный пол</CobbleFloorPegmatite.label>
+	<CobbleFloorPegmatite.description>Простой пол из каменных блоков.</CobbleFloorPegmatite.description>
+
+	<CobbleFloorAlabaster.label>Алебастровый мощёный пол</CobbleFloorAlabaster.label>
+	<CobbleFloorAlabaster.description>Простой пол из каменных блоков.</CobbleFloorAlabaster.description>
 	
 		
-	<UEBrickSandstone.label>Неровные кирпичи из песчаника</UEBrickSandstone.label>
+	<UEBrickSandstone.label>Песчаниковые неровные кирпичи</UEBrickSandstone.label>
 	<UEBrickSandstone.description>Кирпичи различных размеров, уложенные на пол.</UEBrickSandstone.description>
 
 	<UEBrickGranite.label>Гранитные неровные кирпичи</UEBrickGranite.label>
@@ -408,6 +539,18 @@
 	<UEBrickCeramics.label>Керамические неровные кирпичи</UEBrickCeramics.label>
 	<UEBrickCeramics.description>Кирпичи различных размеров, уложенные на пол.</UEBrickCeramics.description>
 
+	<UEBrickBasalt.label>Базальтовые неровные кирпичи</UEBrickBasalt.label>
+	<UEBrickBasalt.description>Кирпичи различных размеров, уложенные на пол.</UEBrickBasalt.description>
+
+	<UEBrickDunite.label>Дунитовые неровные кирпичи</UEBrickDunite.label>
+	<UEBrickDunite.description>Кирпичи различных размеров, уложенные на пол.</UEBrickDunite.description>
+
+	<UEBrickPegmatite.label>Пегматитовые неровные кирпичи</UEBrickPegmatite.label>
+	<UEBrickPegmatite.description>Кирпичи различных размеров, уложенные на пол.</UEBrickPegmatite.description>
+
+	<UEBrickAlabaster.label>Алебастровые неровные кирпичи</UEBrickAlabaster.label>
+	<UEBrickAlabaster.description>Кирпичи различных размеров, уложенные на пол.</UEBrickAlabaster.description>
+
 	
 	<EXF_TileSandstone.label>Плитка из песчаника</EXF_TileSandstone.label>
 	<EXF_TileSandstone.description>Гладкие отполированные каменные плитки. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</EXF_TileSandstone.description>
@@ -426,6 +569,15 @@
 	
 	<EXF_TileCeramics.label>Керамическая плитка</EXF_TileCeramics.label>
 	<EXF_TileCeramics.description>Гладкие отполированные каменные плитки. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</EXF_TileCeramics.description>
+
+	<EXF_TileDunite.label>Дунитовая плитка</EXF_TileDunite.label>
+	<EXF_TileDunite.description>Гладкие отполированные каменные плитки. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</EXF_TileDunite.description>
+
+	<EXF_TilePegmatite.label>Пегматитовая плитка</EXF_TilePegmatite.label>
+	<EXF_TilePegmatite.description>Гладкие отполированные каменные плитки. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</EXF_TilePegmatite.description>
+	
+	<EXF_TileAlabaster.label>Алебастровая плитка</EXF_TileAlabaster.label>
+	<EXF_TileAlabaster.description>Гладкие отполированные каменные плитки. Трудоемкий процесс изготовления, но зато их легко поддерживать в чистоте.</EXF_TileAlabaster.description>
 	
 	
 	<HerrBrickSandstone.label>Кирпичи из песчаника ёлочкой</HerrBrickSandstone.label>
@@ -448,6 +600,39 @@
 
 	<HerrBrickCeramics.label>Керамические кирпичи в ёлочку</HerrBrickCeramics.label>
 	<HerrBrickCeramics.description>Кирпичи, сложенные в узор.</HerrBrickCeramics.description>
+
+	<HerrBrickBasalt.label>Базальтовые кирпичи в ёлочку</HerrBrickBasalt.label>
+	<HerrBrickBasalt.description>Кирпичи, сложенные в узор.</HerrBrickBasalt.description>
+
+	<HerrBrickDunite.label>Дунитовые кирпичи в ёлочку</HerrBrickDunite.label>
+	<HerrBrickDunite.description>Кирпичи, сложенные в узор.</HerrBrickDunite.description>
+
+	<HerrBrickPegmatite.label>Пегматитовые кирпичи в ёлочку</HerrBrickPegmatite.label>
+	<HerrBrickPegmatite.description>Кирпичи, сложенные в узор.</HerrBrickPegmatite.description>
+
+	<HerrBrickAlabaster.label>Алебастровые кирпичи в ёлочку</HerrBrickAlabaster.label>
+	<HerrBrickAlabaster.description>Кирпичи, сложенные в узор.</HerrBrickAlabaster.description>
+    
+    <!-- ================= Vanilla Minerals Floors ================= -->
+  
+    <FlagstoneDunite.label>грубая плитка из дунита</FlagstoneDunite.label>
+    <FlagstoneDunite.description>Грубо вырезанные каменные плиты. Не очень красивые, но отлично подходят для покрытия дорог и пешеходных дорожек. Разборка плиты не даёт ресурсов.</FlagstoneDunite.description>
+      
+    <FlagstonePegmatite.label>грубая плитка из пегматита</FlagstonePegmatite.label>
+    <FlagstonePegmatite.description>Грубо вырезанные каменные плиты. Не очень красивые, но отлично подходят для покрытия дорог и пешеходных дорожек. Разборка плиты не даёт ресурсов.</FlagstonePegmatite.description>
+      
+    <FlagstoneAlabaster.label>грубая плитка из алебастра</FlagstoneAlabaster.label>
+    <FlagstoneAlabaster.description>Грубо вырезанные каменные плиты. Не очень красивые, но отлично подходят для покрытия дорог и пешеходных дорожек. Разборка плиты не даёт ресурсов.</FlagstoneAlabaster.description>
+    
+    
+    <TileDunite.label>плитка из дунита</TileDunite.label>
+    <TileDunite.description>Аккуратно вырезанные и подогнанные друг к другу каменные плитки, как в средневековом замке. Приятны на вид, но укладка требует времени.</TileDunite.description>
+  
+    <TilePegmatite.label>плитка из пегматита</TilePegmatite.label>
+    <TilePegmatite.description>Аккуратно вырезанные и подогнанные друг к другу каменные плитки, как в средневековом замке. Приятны на вид, но укладка требует времени.</TilePegmatite.description>
+  
+    <TileAlabaster.label>плитка из алебастра</TileAlabaster.label>
+    <TileAlabaster.description>Аккуратно вырезанные и подогнанные друг к другу каменные плитки, как в средневековом замке. Приятны на вид, но укладка требует времени.</TileAlabaster.description>
 	
 	<!-- ================= Primitive Floors ================= -->
 

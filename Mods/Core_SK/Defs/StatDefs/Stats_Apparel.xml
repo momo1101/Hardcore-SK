@@ -3,15 +3,17 @@
 
 	<StatDef Name="ArmorRatingBase" Abstract="True">
 		<category>Apparel</category>
+		<workerClass>CombatExtended.StatWorker_ArmorPartial</workerClass>
 		<defaultBaseValue>0</defaultBaseValue>
 		<minValue>0</minValue>
 		<hideAtValue>0</hideAtValue>
 		<maxValue>2</maxValue>
 		<toStringStyle>PercentOne</toStringStyle>
 		<parts>
-			<li Class="StatPart_Quality">
-				<factorAwful>0.5</factorAwful>
-				<factorPoor>0.75</factorPoor>
+			<li Class="CombatExtended.StatPart_NaturalArmorDurability"/>
+			<li Class="CombatExtended.StatPart_QualityConditional">
+				<factorAwful>0.6</factorAwful>
+				<factorPoor>0.8</factorPoor>
 				<factorNormal>1</factorNormal>
 				<factorGood>1.15</factorGood>
 				<factorExcellent>1.25</factorExcellent>
@@ -118,6 +120,7 @@
 				<multiplierStat>StuffEffectMultiplierInsulation_Cold</multiplierStat>
 			</li>
 		</parts>
+		<cacheable>true</cacheable>
 	</StatDef>
 
 	<StatDef ParentName="InsulationBase">

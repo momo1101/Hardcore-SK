@@ -4,6 +4,9 @@
   <!-- EN: afro -->
   <Afro.label>афро</Afro.label>
   
+  <!-- EN: bald -->
+  <Bald.label>лысина</Bald.label>
+  
   <!-- EN: bob -->
   <Bob.label>пучок</Bob.label>
   
@@ -50,7 +53,7 @@
   <Fringe.label>встрёпанные</Fringe.label>
   
   <!-- EN: frozen -->
-  <Frozen.label>залакированные</Frozen.label>
+  <Frozen.label>лакированные</Frozen.label>
   
   <!-- EN: greasy swoop -->
   <GreasySwoop.label>жирный начёс</GreasySwoop.label>
@@ -92,7 +95,7 @@
   <Princess.label>принцесса</Princess.label>
   
   <!-- EN: randy -->
-  <Randy.label>как у Рэнди</Randy.label>
+  <Randy.label>Рэнди</Randy.label>
   
   <!-- EN: recruit -->
   <Recruit.label>рекрут</Recruit.label>

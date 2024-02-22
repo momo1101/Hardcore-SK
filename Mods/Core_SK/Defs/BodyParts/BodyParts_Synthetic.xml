@@ -118,6 +118,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>BionicLung</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -221,6 +222,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>BionicStomach</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -325,6 +327,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>BionicLiver</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -429,6 +432,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>BionicKidney</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -540,6 +544,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>BionicHeart</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -636,6 +641,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>Joywire</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -667,6 +673,9 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>Joywire</addsHediff>
 		<researchPrerequisite>Prosthesis_install_D2</researchPrerequisite>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
 	</RecipeDef>
 
 
@@ -733,6 +742,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>Painstopper</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -764,6 +774,9 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>Painstopper</addsHediff>
 		<researchPrerequisite>Prosthesis_install_D2</researchPrerequisite>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
 	</RecipeDef>
 	
 	
@@ -849,6 +862,7 @@
 		</descriptionHyperlinks>
 		<jobString>Installing muscle stimulator.</jobString>
 		<workAmount>1500</workAmount>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -880,6 +894,9 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>MuscleStimulatorArms</addsHediff>
 		<researchPrerequisite>Prosthesis_install_D2</researchPrerequisite>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SK_SurgeryFlesh">
@@ -890,6 +907,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>MuscleStimulator</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<jobString>Installing muscle stimulator.</jobString>
 		<workAmount>1500</workAmount>
 		<ingredients>
@@ -923,6 +941,9 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>MuscleStimulatorLegs</addsHediff>
 		<researchPrerequisite>Prosthesis_install_D2</researchPrerequisite>
+		<skillRequirements>
+			<Medicine>13</Medicine>
+		</skillRequirements>
 	</RecipeDef>
 
 </Defs>

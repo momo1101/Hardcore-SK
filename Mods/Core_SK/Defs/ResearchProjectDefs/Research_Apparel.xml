@@ -24,6 +24,7 @@
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>40.00</researchViewY>
 		<tab>Apparel_SK</tab>
+		<tags IsNull="true" Inherit="false"/>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="MedievalBase">
@@ -290,8 +291,8 @@
 		<baseCost>2300</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
+			<li>Armor_D1</li>
 			<li>Components_D3</li>
-			<li>Fabrication</li>
 		</prerequisites>
 		<researchViewX>21.00</researchViewX>
 		<researchViewY>39.00</researchViewY>

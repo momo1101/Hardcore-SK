@@ -18,7 +18,7 @@
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
-	</ThingDef>
+    </ThingDef>
 
 
 	<ThingDef Name="BasedFixture" Abstract="True" ParentName="BasedHygieneMom">
@@ -42,6 +42,7 @@
 		</comps>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
 		</building>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<thingCategories>
@@ -100,6 +101,7 @@
 			<isEdifice>true</isEdifice>
 			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
+			<paintable>true</paintable>
 		</building>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>
@@ -119,6 +121,7 @@
 		<graphicData>
 			<texPath>DBH/Things/Building/Latrine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
@@ -178,6 +181,9 @@
 	  <li>Bricks</li>
     </stuffCategories>
     <costStuffCount>25</costStuffCount>
+		<costList>
+			<ComponentMedieval>1</ComponentMedieval>
+		</costList>	
 		<placeWorkers>
 			<li>DubsBadHygiene.PlaceWorker_WaterGrid</li>
 			<li>DubsBadHygiene.PlaceWorker_SewageGrid</li>
@@ -191,6 +197,9 @@
 		</comps>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<rotatable>false</rotatable>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
@@ -218,6 +227,9 @@
 			<li>BuildingsHygiene</li>
 		</thingCategories>
 		<altitudeLayer>Building</altitudeLayer>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>250</WorkToBuild> 
@@ -263,6 +275,7 @@
 			<li>BuildingsHygiene</li>
 		</thingCategories>
 		<altitudeLayer>Building</altitudeLayer>
+		<defaultStuff>Steel</defaultStuff>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -281,6 +294,9 @@
 			<Cleanliness>-5</Cleanliness>
 			<Mass>5</Mass>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<tickerType>Rare</tickerType>
 		<fillPercent>0.15</fillPercent>
 		<passability>PassThroughOnly</passability>
@@ -328,6 +344,9 @@
 			<Cleanliness>-5</Cleanliness>
 			<Mass>1</Mass>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<tickerType>Rare</tickerType>
 		<fillPercent>0.05</fillPercent>
 		<passability>PassThroughOnly</passability>
@@ -367,6 +386,9 @@
 			<Cleanliness>-5</Cleanliness>
 			<Mass>5</Mass>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<fillPercent>0.15</fillPercent>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -416,6 +438,9 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<selectable>true</selectable>
+		<costList>
+			<SandResource>30</SandResource>
+		</costList>		
     <stuffCategories>
       <li>Stony</li>
 	  <li>Ceramic</li>
@@ -504,6 +529,9 @@
 			<Beauty>10</Beauty>
 			<Mass>5</Mass>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<fillPercent>0.15</fillPercent>
@@ -531,13 +559,13 @@
 			<li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
-		<researchPrerequisites Inherit="False">
+		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">CentralHeating</li>
 		</researchPrerequisites>
 	</ThingDef>
 
 	
-	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirst="true">
+	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirstAddon="true">
 		<defName>Fountain</defName>
 		<label>fountain</label>
 		<description>A water fountain used for drinking and washing.</description>
@@ -565,7 +593,7 @@
 		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
-	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirst="true">
+	<ThingDef ParentName="DubsDirtyBasinBase" DBHThirstAddon="true">
 		<defName>KitchenSink</defName>
 		<label>kitchen sink</label>
 		<description>Everything but a kitchen sink. Increases room cleanliness.</description>
@@ -633,6 +661,7 @@
 		<pathCost>8</pathCost>
 		<rotatable>true</rotatable>
 		<building>
+			<paintable>true</paintable>
 			<isSittable>true</isSittable>
 		</building>
 	</ThingDef>
@@ -668,17 +697,17 @@
 		<statBases>
 			<WorkToBuild>1950</WorkToBuild>
 			<Beauty>6</Beauty>
-			<Comfort>1</Comfort>
+			<Comfort>0.78</Comfort>
 		</statBases>
 		<comps>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
+			</li>		
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>75</basePowerConsumption>
 			</li>
-			<li Class="SK.CompProperties_LowIdleDraw">
-				<compClass>SK.CompPowerLowIdleDraw</compClass>
-				<idlePowerFactor>0.1</idlePowerFactor>
-			</li>			
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<researchPrerequisites>
@@ -694,6 +723,7 @@
 			<ElectronicComponents>2</ElectronicComponents>
 			<Mechanism>1</Mechanism>
 			<ComponentIndustrial>4</ComponentIndustrial>
+			<Wire>4</Wire>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -733,6 +763,9 @@
 			<Mass>2.5</Mass>
 			<WorkToBuild>800</WorkToBuild>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<passability>Standable</passability>
 		<selectable>true</selectable>
@@ -778,6 +811,9 @@
 			<JoyGainFactor>0.7</JoyGainFactor>
 			<Mass>50</Mass>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<fillPercent>0.15</fillPercent>
 		<size>(1, 2)</size>
 		<passability>PassThroughOnly</passability>
@@ -837,7 +873,9 @@
 			<Comfort>0.4</Comfort>
 			<Mass>20</Mass>
 		</statBases>
-
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<fillPercent>0.15</fillPercent>
 		<passability>PassThroughOnly</passability>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
@@ -921,7 +959,7 @@
 			<li Class="SK.CompProperties_LowIdleDraw">
 				<compClass>SK.CompPowerLowIdleDraw</compClass>
 				<idlePowerFactor>0.1</idlePowerFactor>
-			</li>
+			</li>		
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>75</basePowerConsumption>

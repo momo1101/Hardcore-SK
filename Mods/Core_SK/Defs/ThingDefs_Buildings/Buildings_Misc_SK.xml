@@ -36,6 +36,7 @@
 			<sowTag>SupportPlantsOnly</sowTag>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<designationHotKey>Misc10</designationHotKey>
@@ -70,6 +71,7 @@
 			<sowTag>SupportPlantsOnly</sowTag>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<buildingTags>
 				<li>RitualFocus</li>
@@ -101,6 +103,7 @@
 			<sowTag>SupportPlantsOnly</sowTag>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 		<designationHotKey>Misc12</designationHotKey>
@@ -157,6 +160,7 @@
 			<sowTag>SupportPlantsOnly</sowTag>
 			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
 			<ai_chillDestination>false</ai_chillDestination>
+			<wakeDormantPawnsOnConstruction>false</wakeDormantPawnsOnConstruction>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 		</building>
 	</ThingDef>
@@ -197,7 +201,14 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>300</uninstallWork>
+			<paintable>true</paintable>
 		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+				</linkableFacilities>
+			</li>
+		</comps>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Misc</designationCategory>
@@ -253,6 +264,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>360</uninstallWork>
+			<paintable>true</paintable>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -327,6 +339,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<building>
 			<uninstallWork>360</uninstallWork>
+			<paintable>true</paintable>
 		</building>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -387,13 +400,18 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<soundPowerOn>Power_OnSmall</soundPowerOn>
 				<soundPowerOff>Power_OffSmall</soundPowerOff>
-				<basePowerConsumption>1000</basePowerConsumption>
+				<basePowerConsumption>2000</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Schedule">
 				<!-- Match plant growing times -->
 				<startTime>0.25</startTime>
 				<endTime>0.8</endTime>
 				<offMessage>Off for plant resting period</offMessage>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
 			</li>
 		</comps>
 		<!-- Determined by trial and error
@@ -466,7 +484,7 @@
 	<ThingDef ParentName="StandartBuilding">
 		<defName>CommsConsole</defName>
 		<label>comms console</label>
-		<description>Communicate with nearby ships here for negotiation and trade.</description>
+		<description>Allows radio contact with other factions and orbital traders.</description>
 		<thingClass>SK.Building_CommsConsoleGraphicOn</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Misc/Console/console</texPath>
@@ -490,8 +508,13 @@
 			<MaxHitPoints>180</MaxHitPoints>
 			<WorkToBuild>3550</WorkToBuild>
 			<Flammability>1.0</Flammability>
+			<Mass>200</Mass>
 		</statBases>
 		<size>(2,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -520,6 +543,21 @@
 				<compClass>SK.CompPowerLowIdleDraw</compClass>
 				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
+			<li Class="CompProperties_Usable" MayRequire="Ludeon.RimWorld.Biotech">
+				<useJob>TriggerObject</useJob>
+				<useLabel>Summon diabolus threat</useLabel>
+				<useDuration>900</useDuration>
+				<floatMenuOptionPriority>SummonThreat</floatMenuOptionPriority>
+				<floatMenuFactionIcon>Mechanoid</floatMenuFactionIcon>
+				<ignoreOtherReservations>true</ignoreOtherReservations>
+			</li>
+			<li Class="CompProperties_Useable_CallBossgroup" MayRequire="Ludeon.RimWorld.Biotech">
+				<bossgroupDef>Diabolus</bossgroupDef>
+				<spawnLetterLabelKey>LetterLabelCommsConsoleSpawned</spawnLetterLabelKey>
+				<spawnLetterTextKey>LetterCommsConsoleSpawned</spawnLetterTextKey>
+				<effecterDef>CommsConsoleBossgroupSummoned</effecterDef>
+				<delayTicks>120</delayTicks>
+			</li>
 		</comps>
 		<designationHotKey>Misc3</designationHotKey>
 		<placeWorkers>
@@ -529,6 +567,8 @@
 			<li>Telecommunications_C1</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+		<tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType>
+		<!-- used by call bossgroup -->
 	</ThingDef>
 
 	<ThingDef ParentName="StandartBuilding">
@@ -1299,10 +1339,11 @@
 				<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
 				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 				<explosionEffect>ExtinguisherExplosion</explosionEffect>
+				<explosionSound>Explosion_FirefoamPopper</explosionSound>
 			</li>
 			<li Class="CompProperties_Usable">
-				<useJob>TriggerFirefoamPopper</useJob>
-				<useLabel>Trigger firefoam popper</useLabel>
+				<useJob>TriggerObject</useJob>
+				<useLabel>Trigger {0_label}</useLabel>
 			</li>
 			<li Class="CompProperties_UseEffect">
 				<compClass>CompUseEffect_StartWick</compClass>
@@ -1324,7 +1365,7 @@
 		<fillPercent>0.15</fillPercent>
 		<costList>
 			<ComponentIndustrial>5</ComponentIndustrial>
-			<Plastic>15</Plastic>
+			<Surfactant>25</Surfactant>
 			<ElectronicComponents>1</ElectronicComponents>
 			<Mechanism>1</Mechanism>
 		</costList>
@@ -1390,6 +1431,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>
+		<minifiedDef>MinifiedThing</minifiedDef>
 		<specialDisplayRadius>6.9</specialDisplayRadius>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<pathCost>25</pathCost>
@@ -1404,7 +1446,7 @@
 	<ThingDef ParentName="StandartBuilding">
 		<defName>FertilizerPump</defName>
 		<label>terraforming pump</label>
-		<description>A single use pump that slowly expands a field of growable soil around itself. Requires power.</description>
+		<description>A single use pump that slowly expands a field of growable soil around itself. Requires power. Requires water and compost in order to function.</description>
 		<thingClass>SK.Building_FertilizerPump</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Misc/Fertigator</texPath>
@@ -1419,7 +1461,7 @@
 		</graphicData>
 		<passability>Standable</passability>
 		<fillPercent>0.2</fillPercent>
-		<tickerType>Rare</tickerType>	
+		<tickerType>Normal</tickerType>	
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
 			<WorkToBuild>1700</WorkToBuild>
@@ -1428,6 +1470,10 @@
 			<Mass>30</Mass>
 		</statBases>
 		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
 		<costList>
 			<ComponentIndustrial>8</ComponentIndustrial>
 			<Rubber>30</Rubber>
@@ -1449,6 +1495,21 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<basePowerConsumption>300</basePowerConsumption>
 			</li>
+			<li Class="CompProperties_Refuelable">
+				<consumeFuelOnlyWhenPowered>true</consumeFuelOnlyWhenPowered>
+				<fuelConsumptionRate>60.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>-10</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>Compost</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>0</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<showFuelGizmo>true</showFuelGizmo>
+				<fuelGizmoLabel>Compost</fuelGizmoLabel>
+			</li>
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
@@ -1465,6 +1526,7 @@
 		<label>grave</label>
 		<description>Place the deceased in graves to give them a decent final resting place. Can only be dug in dirt.</description>
 		<thingClass>Building_Grave</thingClass>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
 		<graphicData>
 			<texPath>Things/Building/Misc/GraveEmpty</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1565,6 +1627,7 @@
 		<label>sarcophagus</label>
 		<description>An ornamental burial receptacle for the honored dead.</description>
 		<thingClass>Building_Sarcophagus</thingClass>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
 		<graphicData>
 			<texPath>Things/Building/Misc/Sarcophagus</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -1609,6 +1672,7 @@
 			<buildingTags>
 				<li>RitualFocus</li>
 			</buildingTags>
+			<paintable>true</paintable>
 		</building>
 		<statBases>
 			<WorkToBuild>2100</WorkToBuild>
@@ -1695,6 +1759,7 @@
 		<label>cryptosleep casket</label>
 		<description>A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years.</description>
 		<thingClass>Building_CryptosleepCasket</thingClass>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Ship/ShipCryptosleepCasket</texPath>
@@ -1758,11 +1823,12 @@
 		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="SK_BuildingBase" Name="AncientCryptosleepCasket">
 		<defName>AncientCryptosleepCasket</defName>
 		<label>ancient cryptosleep casket</label>
 		<description>This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain?</description>
 		<thingClass>Building_AncientCryptosleepCasket</thingClass>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Ship/ShipCryptosleepCasket</texPath>
@@ -2215,6 +2281,7 @@
 		<uiIconPath>Things/Building/MenuIcon_MobileMineralSonar</uiIconPath>
 		<thingClass>SK.Building_MobileMineralSonar</thingClass>
 		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
 		<placeWorkers>
 			<li>SK.PlaceWorker_MobileMineralSonar</li>
 		</placeWorkers>
@@ -2475,6 +2542,10 @@
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
@@ -2699,7 +2770,7 @@
 	<ThingDef>
 		<defName>BombardmentBeacon</defName>
 		<label>bombardment beacon</label>
-		<description>A beacon. When a battleship receives this signal, it will destroy the nearest enemy base.</description>
+		<description>A beacon. When a battleship receives this signal, it will destroy the nearest enemy base.\n\nTo use this item you need to infiltrate an enemy base and place beacon near buildings. After a short delay a bombardment will begin and settlement will be destroyed once you leave the map. Can't be used on home map.</description>
 		<tickerType>Normal</tickerType>
 		<category>Building</category>
 		<thingClass>SK.Events.Building_BombardmentBeacon</thingClass>
@@ -2738,7 +2809,7 @@
 	<ThingDef>
 		<defName>BombardmentBeaconSecond</defName>
 		<label>safe distance bombardment beacon</label>
-		<description>A beacon. When a battleship receives this signal, it will destroy the nearest enemy base once you leave the area.</description>
+		<description>A beacon. When a battleship receives this signal, it will destroy the nearest enemy base once you leave the area.\n\nTo use this item you need to infiltrate an enemy base and place beacon near buildings. Once you leave the map a bombardment will begin and settlement will be destroyed. Can't be used on home map.</description>
 		<tickerType>Normal</tickerType>
 		<category>Building</category>
 		<thingClass>SK.Events.Building_BombardmentBeacon2</thingClass>
@@ -2860,7 +2931,7 @@
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</ThingDef>
 
-	<!--============================== Steles R1.1 ==============================-->
+	<!--============================== Steles ==============================-->
 
 	<ThingDef Name="SteleBase" ParentName="SK_BuildingBase" Abstract="True">
 		<designationCategory>Misc</designationCategory>
@@ -2874,6 +2945,9 @@
 		<pathCost>50</pathCost>
 		<rotatable>false</rotatable>
 		<castEdgeShadows>True</castEdgeShadows>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="CompProperties_Art">
 				<nameMaker>NamerArtFurniture</nameMaker>
@@ -3085,6 +3159,7 @@
 				<li>Fence</li>
 				<li>FenceGate</li>
 			</relatedBuildCommands>
+			<paintable>true</paintable>
 		</building>
 		<graphicData>
 			<texPath>Things/Building/Furniture/PenMarker</texPath>

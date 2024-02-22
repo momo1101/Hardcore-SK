@@ -143,7 +143,7 @@
 			<SwayFactor>4.5</SwayFactor>
 			<RangedWeapon_Cooldown>5.5</RangedWeapon_Cooldown>
 			<Bulk>20.00</Bulk>
-			<Mass>300.00</Mass>
+			<Mass>200.00</Mass>
 		</statBases>
 		<tradeability>None</tradeability>
 		<techLevel>Spacer</techLevel>
@@ -173,6 +173,7 @@
 				<circularError>1.5</circularError>
 				<range>75</range>
 				<burstShotCount>1</burstShotCount>
+				<recoilAmount>1.01</recoilAmount>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
@@ -545,9 +546,9 @@
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_9x44mmCharged</defaultProjectile>
+				<defaultProjectile>Bullet_5x100mmCaseless_Sabot</defaultProjectile>
 				<warmupTime>2</warmupTime>
-				<range>68</range>
+				<range>70</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_NeedleGun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -561,7 +562,7 @@
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>3</magazineSize>
 				<reloadTime>2.5</reloadTime>
-				<ammoSet>AmmoSet_9x44mmCharged</ammoSet>
+				<ammoSet>AmmoSet_5x100mmCaseless</ammoSet>
 			</li>
 		</comps>
 	</ThingDef>

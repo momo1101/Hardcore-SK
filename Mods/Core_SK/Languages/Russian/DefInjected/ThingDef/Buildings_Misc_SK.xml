@@ -5,7 +5,7 @@
 	<TradingSpot.description>Обозначает место, в котором торговцы остановятся при посещении вашего поселения.</TradingSpot.description>
 
 	<FertilizerPump.label>Фертигатор</FertilizerPump.label>
-	<FertilizerPump.description>Медленно создаёт слой плодородной почвы вокруг себя.\nНужна энергия.\nПотребляемая мощность: 300 W</FertilizerPump.description>
+	<FertilizerPump.description>Медленно создаёт слой плодородной почвы вокруг себя.\nНужна энергия, вода и компост.</FertilizerPump.description>
 
 	<Patterner.label>Органайзер</Patterner.label>
 	<Patterner.description>Важное место для хранения выкроек, тканей и различной текстильной продукции. Значительно повышает скорость работы за портняжными верстаками.</Patterner.description>
@@ -23,7 +23,7 @@
 	<CookingTools.description>Увеличивает скорость готовки.Необходимо разместить рядом с кухонной плитой.</CookingTools.description>
 
 	<Holodeck.label>Голографический стол</Holodeck.label>
-	<Holodeck.description>Голограмма, предназначенная для тренировки навыка общения колонистов.</Holodeck.description>
+	<Holodeck.description>Голограмма, предназначенная для тренировки навыка общения поселенцев.</Holodeck.description>
 
 	<PunchingBag.label>Боксерская груша</PunchingBag.label>
 	<PunchingBag.description>Боксерская груша, на которой поселенцы могут отработать свои навыки ближнего боя.</PunchingBag.description>

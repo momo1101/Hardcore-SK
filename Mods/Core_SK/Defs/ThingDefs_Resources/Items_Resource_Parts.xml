@@ -34,7 +34,8 @@
 		<defName>ComponentIndustrial</defName>
 		<label>component</label>
 		<description>Miscellaneous gears, capacitors, circuit boards, tubes, wheels, sensors, wires, chips, processors, and other electronic and industrial parts. Necessary for assembling complex machines or electronics.</description>
-		<graphicData>
+    <possessionCount>2</possessionCount>
+    <graphicData>
 			<texPath>Things/Item/Components/Component</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
@@ -193,7 +194,7 @@
 	
 	<ThingDef ParentName="CropsBase">
 		<defName>Pipe</defName>
-		<label>pipe</label>
+		<label>drill pipe</label>
 		<description>Pipes is produced from tough metals and need to work producing oil rigs.</description>
 		<graphicData>
 			<texPath>Things/Item/Parts/Pipe</texPath>
@@ -229,7 +230,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>130</MarketValue>
+			<MarketValue>65</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -260,7 +261,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<MarketValue>50</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -292,7 +293,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>300</MarketValue>
+			<MarketValue>150</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -324,7 +325,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>300</MarketValue>
+			<MarketValue>150</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -356,7 +357,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>400</MarketValue>
+			<MarketValue>200</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -388,7 +389,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>800</MarketValue>
+			<MarketValue>400</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -420,7 +421,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>500</MarketValue>
+			<MarketValue>250</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -451,7 +452,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>2500</MarketValue>
+			<MarketValue>1250</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -483,7 +484,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>1000</MarketValue>
+			<MarketValue>500</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -515,7 +516,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>1200</MarketValue>
+			<MarketValue>600</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -546,7 +547,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Industrial</techLevel>
 		<statBases>
-			<MarketValue>1500</MarketValue>
+			<MarketValue>750</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -577,7 +578,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Spacer</techLevel>
 		<statBases>
-			<MarketValue>1375</MarketValue>
+			<MarketValue>687</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -609,7 +610,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Spacer</techLevel>
 		<statBases>
-			<MarketValue>2000</MarketValue>
+			<MarketValue>1000</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>
@@ -641,7 +642,7 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<techLevel>Spacer</techLevel>
 		<statBases>
-			<MarketValue>2000</MarketValue>
+			<MarketValue>1000</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>1</Flammability>
 			<SellPriceFactor>0.70</SellPriceFactor>

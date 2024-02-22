@@ -37,7 +37,6 @@
 		<isBad>false</isBad>
 		<defaultLabelColor>(148,117,14)</defaultLabelColor>
 		<addedPartProps>
-			<solid>true</solid>
 			<betterThanNatural>false</betterThanNatural>
 		</addedPartProps>
 		<priceImpact>true</priceImpact>
@@ -49,6 +48,7 @@
 		<skillRequirements>
 			<Medicine>3</Medicine>
 		</skillRequirements>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -128,6 +128,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>EyePatch</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -235,6 +236,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>HookHand</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -309,6 +311,12 @@
 		<descriptionHyperlinks>
 			<ThingDef>Denture</ThingDef>
 		</descriptionHyperlinks>
+		<!--<hediffClass>Hediff_AddedPartNoRemoveSubparts</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_RestoreSubPart">
+				<partToRestore>Tongue</partToRestore>
+			</li>
+		</comps>-->
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
@@ -340,6 +348,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>Denture</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -468,7 +477,9 @@
 		</stuffCategories>
 		<costStuffCount>10</costStuffCount>
 		<costList>
-			<ComponentMedieval>2</ComponentMedieval>
+			<ElectronicComponents>1</ElectronicComponents>
+			<Wire>2</Wire>
+			<ComponentMedieval>1</ComponentMedieval>
 		</costList>
 		<recipeMaker>
 			<productCount>1</productCount>
@@ -514,6 +525,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>CochlearImplant</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -606,6 +618,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>SimpleProstheticHeart</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>

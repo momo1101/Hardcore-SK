@@ -37,6 +37,9 @@
 			<WorkToBuild>15000</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<modExtensions>
 			<li Class="DubsBadHygiene.BuildWaterExt" />
 		</modExtensions>
@@ -119,6 +122,7 @@
 		<pathCost>60</pathCost>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
 		</building>
 		<rotatable>false</rotatable>
 		<statBases>
@@ -196,17 +200,16 @@
 		<costList>
 		    <Mechanism>1</Mechanism>
 			<ComponentMedieval>15</ComponentMedieval>
-			<WoodLog>500</WoodLog>
+			<WoodLog>200</WoodLog>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Stony</li>
-			<li>Plastic</li>
 		</stuffCategories>
 		<costStuffCount>100</costStuffCount>
 		<comps>
 			<li Class="DubsBadHygiene.CompProperties_WaterStorage">
-				<WaterStorageCap>10000</WaterStorageCap>
+				<WaterStorageCap>8000</WaterStorageCap>
 			</li>
 		</comps>
 		<statBases>
@@ -244,7 +247,6 @@
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Stony</li>
-			<li>Plastic</li>
 		</stuffCategories>
 		<costStuffCount>200</costStuffCount>
 		<statBases>
@@ -271,6 +273,9 @@
 		<pathCost>60</pathCost>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<rotatable>true</rotatable>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="DubsBadHygiene.CompProperties_Pipe">
 				<mode>Sewage</mode>
@@ -297,7 +302,7 @@
 		<rotatable>true</rotatable>
 		<costList>
 			<ComponentIndustrial>10</ComponentIndustrial>	
-			<Mechanism>3</Mechanism>
+			<Mechanism>6</Mechanism>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -377,7 +382,7 @@
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">ElectricPumps</li>
 		</researchPrerequisites>
-        <castEdgeShadows>True</castEdgeShadows>
+		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
 	<ThingDef ParentName="BasedWaterPump" DBHLite="true">
@@ -420,7 +425,7 @@
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">Hygiene_2A</li>
 		</researchPrerequisites>
-        <castEdgeShadows>True</castEdgeShadows>
+		<castEdgeShadows>True</castEdgeShadows>
 	</ThingDef>
 
 
@@ -470,6 +475,7 @@
 			</watchBuildingStandDistanceRange>
 			<watchBuildingStandRectWidth>3</watchBuildingStandRectWidth>
 			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
 		</building>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<rotatable>true</rotatable>
@@ -553,6 +559,7 @@
 		</comps>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">ModernFixtures</li>
@@ -619,6 +626,7 @@
 		<building>
 			<soundAmbient>sewage_Ambience</soundAmbient>
 			<ai_chillDestination>false</ai_chillDestination>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li MayRequire="dbhlitemode">ElectricPumps</li>
@@ -661,6 +669,9 @@
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>2500</WorkToBuild>
 		</statBases>
+		<building>
+		  <paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>

@@ -35,6 +35,7 @@
 			<Comfort>0.15</Comfort>
 			<Bulk>38</Bulk>
 			<Mass>16</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">1</StyleDominance>
 		</statBases>
 		<description>Primitive stone stool.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -48,8 +49,12 @@
 		<fillPercent>0.35</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="SK_FurnitureBase">
@@ -80,6 +85,7 @@
 			<Comfort>0.2</Comfort>
 			<Bulk>9</Bulk>
 			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">1</StyleDominance>
 		</statBases>
 		<description>Is an authentic stool, fashioned after those found in the ruins of the Red Tree People on Xentis Ham.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -92,8 +98,12 @@
 		<fillPercent>0.35</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
 	</ThingDef>
 
 
@@ -129,6 +139,7 @@
 			<Comfort>0.3</Comfort>
 			<Bulk>15</Bulk>
 			<Mass>5</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">4</StyleDominance>
 		</statBases>
 		<description>A very basic platform on which to sit. It lacks a backrest.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -147,6 +158,7 @@
 		<fillPercent>0.35</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
@@ -184,6 +196,7 @@
 			<Comfort>0.45</Comfort>
 			<Bulk>17</Bulk>
 			<Mass>7</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">4</StyleDominance>
 		</statBases>
 		<description>Rest your tushie on this plushy cushion!</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -202,6 +215,9 @@
 			<li>Tables_B2</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
 	</ThingDef>  
 
 	<ThingDef ParentName="SK_FurnitureBase">
@@ -225,6 +241,7 @@
 			<Comfort>0.35</Comfort>
 			<Bulk>36</Bulk>
 			<Mass>18</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">1</StyleDominance>
 		</statBases>
 		<description>Whoever said that stone is not comfortable? Prove everyone wrong with this replica of a perfectly comfortable stony armchair.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -241,8 +258,12 @@
 		<fillPercent>0.30</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="SK_FurnitureBase">
@@ -277,6 +298,7 @@
 			<Comfort>0.6</Comfort>
 			<Bulk>8</Bulk>
 			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
 		</statBases>
 		<description>A piece of leather and some steel - et voilà! An ingenious way of sitting, invented by the Galga Ler on Achron V.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -293,6 +315,7 @@
 		<fillPercent>0.30</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li>Tables_C1</li>
@@ -336,6 +359,7 @@
 			<Comfort>0.5</Comfort>
 			<Bulk>25</Bulk>
 			<Mass>11</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">4</StyleDominance>
 		</statBases>
 		<size>(2,1)</size>
 		<description>A simple platform on which to sit.</description>
@@ -354,11 +378,15 @@
 		<fillPercent>0.30</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_Styleable" />
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="SK_ArtableFurnitureBase">
@@ -390,6 +418,7 @@
 			<Comfort>0.5</Comfort>
 			<Bulk>41</Bulk>
 			<Mass>16</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
 		</statBases>
 		<description>A sturdy and attractive chair that is typically used for sitting at a table. It is a proper seating improvement over stools.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -406,6 +435,7 @@
 		<fillPercent>0.35</fillPercent>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li>Tables_B2</li>
@@ -444,6 +474,7 @@
 			<Comfort>0.85</Comfort>
 			<Bulk>15</Bulk>
 			<Mass>7</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
 		<description>Millenium Line chair.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -465,6 +496,7 @@
 		<building>
 			<isSittable>true</isSittable>
 			<destroySound>BuildingDestroyed_Soft_Small</destroySound>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li>Tables_C2</li>
@@ -504,6 +536,7 @@
 			<Comfort>0.9</Comfort>
 			<Bulk>37</Bulk>
 			<Mass>15</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">8</StyleDominance>
 		</statBases>
 		<description>Millenium Line Egg Armchair. Feel like a chick - sit in an egg..</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -564,6 +597,7 @@
 			<Comfort>0.6</Comfort>
 			<Bulk>31</Bulk>
 			<Mass>15</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">7</StyleDominance>
 		</statBases>
 		<description>A large, soft and comfy seat. Great for relaxation. Whoever thought of adding soft padding to a chair is a genious.</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -582,6 +616,7 @@
 		<building>
 			<isSittable>true</isSittable>
 			<destroySound>BuildingDestroyed_Soft_Small</destroySound>
+			<paintable>true</paintable>
 		</building>
 		<researchPrerequisites>
 			<li>Tables_C1</li>
@@ -627,6 +662,7 @@
 			<Comfort>0.7</Comfort>
 			<Bulk>100</Bulk>
 			<Mass>39</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
 		</statBases>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -640,6 +676,7 @@
 			<li>
 				<compClass>CompGatherSpot</compClass>
 			</li>
+			<li Class="CompProperties_Styleable" />
 		</comps>
 		<pathCost>30</pathCost>
 		<designationCategory>Furniture</designationCategory>
@@ -649,6 +686,7 @@
 		</researchPrerequisites>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 		</building>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
@@ -684,6 +722,7 @@
 			<Comfort>0.75</Comfort>
 			<Bulk>70</Bulk>
 			<Mass>35</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
 		</statBases>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -705,6 +744,7 @@
 		</researchPrerequisites>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 			<destroySound>BuildingDestroyed_Soft_Small</destroySound>
 		</building>
 		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
@@ -742,6 +782,7 @@
 			<Comfort>0.9</Comfort>
 			<Bulk>65</Bulk>
 			<Mass>25</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">12</StyleDominance>
 		</statBases>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -765,6 +806,7 @@
 		</researchPrerequisites>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 			<destroySound>BuildingDestroyed_Soft_Small</destroySound>
 		</building>
 		<constructionSkillPrerequisite>13</constructionSkillPrerequisite>
@@ -792,6 +834,7 @@
 			<Comfort>0.85</Comfort>
 			<Bulk>39</Bulk>
 			<Mass>18</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">9</StyleDominance>
 		</statBases>
 		<description>Enter to galahoo, himself! It need a human ?</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -836,6 +879,7 @@
 		</placeWorkers>
 		<building>
 			<isSittable>true</isSittable>
+			<paintable>true</paintable>
 			<destroySound>BuildingDestroyed_Soft_Small</destroySound>
 		</building>
 		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
@@ -850,6 +894,10 @@
 		<canOverlapZones>false</canOverlapZones>
 		<surfaceType>Eat</surfaceType>
 		<tickerType>Normal</tickerType>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<uiOrder>2300</uiOrder>
 		<comps>
 			<li>
 				<compClass>CompQuality</compClass>
@@ -1034,7 +1082,7 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/Tables/table2x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2,1)</drawSize>
+			<drawSize>(1,2)</drawSize>
 			<shadowData>
 				<volume>(1.8, 0.6, 0.6)</volume>
 			</shadowData>
@@ -1058,7 +1106,7 @@
 			<Mass>10</Mass>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
 		</statBases>
-		<size>(2,1)</size>
+		<size>(1,2)</size>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -1153,6 +1201,9 @@
 			<li>Glass</li>		
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
+		<building>
+			<buildingSizeCategory>Medium</buildingSizeCategory>
+		</building>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
@@ -1166,7 +1217,7 @@
 		<graphicData>
 			<texPath>Things/Building/Furniture/Tables/table3x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,2)</drawSize>
+			<drawSize>(2,3)</drawSize>
 			<shadowData>
 				<volume>(2.8, 0.6, 1.8)</volume>
 			</shadowData>
@@ -1193,7 +1244,7 @@
 			<li>Precious</li>
 			<li>Glass</li>
 		</stuffCategories>
-		<size>(3,2)</size>
+		<size>(2,3)</size>
 		<costStuffCount>80</costStuffCount>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
@@ -1564,6 +1615,9 @@
 		<neverMultiSelect>false</neverMultiSelect>
 		<designationCategory>Furniture</designationCategory>
 		<drawGUIOverlay>True</drawGUIOverlay>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
@@ -1624,6 +1678,9 @@
 			<Bulk>78</Bulk>
 			<Mass>22</Mass>
 		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<size>(2,1)</size>
 		<designationCategory/>
 		<passability>PassThroughOnly</passability>
@@ -1683,6 +1740,9 @@
 			<Plastic>20</Plastic>
 			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
@@ -1792,7 +1852,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>1100</WorkToBuild>
 			<Flammability>1.0</Flammability>
-			<Beauty>9</Beauty>
+			<Beauty>8</Beauty>
 			<Bulk>70</Bulk>
 			<Mass>20</Mass>
 		</statBases>
@@ -1809,6 +1869,9 @@
 		</costList>
 		<pathCost>70</pathCost>
 		<passability>PassThroughOnly</passability>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="CompProperties_Facility">
 				<statOffsets>
@@ -1856,7 +1919,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>1100</WorkToBuild>
 			<Flammability>1.0</Flammability>
-			<Beauty>14</Beauty>
+			<Beauty>10</Beauty>
 			<Bulk>75</Bulk>
 			<Mass>23</Mass>
 		</statBases>
@@ -1878,6 +1941,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<tickerType>Rare</tickerType>
+		<building>
+			<paintable>true</paintable>
+		</building>
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Power">
@@ -1900,6 +1966,7 @@
 					<Beauty>4</Beauty>
 				</statOffsets>        
 				<maxSimultaneous>1</maxSimultaneous>
+				<mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
 			</li> 
 		</comps>
 		<placeWorkers>
@@ -2013,7 +2080,7 @@
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<WorkToBuild>1975</WorkToBuild>
-			<Beauty>24</Beauty>
+			<Beauty>22</Beauty>
 			<Flammability>1.0</Flammability>
 			<Comfort>0.82</Comfort>
 			<Bulk>20</Bulk>

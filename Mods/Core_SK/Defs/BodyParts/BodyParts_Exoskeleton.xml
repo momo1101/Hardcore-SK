@@ -83,6 +83,7 @@
 		<descriptionHyperlinks>
 			<ThingDef>ExoskeletonSuit</ThingDef>
 		</descriptionHyperlinks>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -118,7 +119,7 @@
 		</skillRequirements>
 		<researchPrerequisite>Prosthesis_install_E2</researchPrerequisite>
 		<incompatibleWithHediffTags>
-			<li>ExoskeletonSuit</li>
+			<li>ProtectiveExoskeleton</li>
 		</incompatibleWithHediffTags>
 	</RecipeDef>
 
@@ -227,6 +228,7 @@
 		<jobString>Installing protective exoskeleton.</jobString>
 		<workerClass>Recipe_InstallImplant</workerClass>
 		<workAmount>3500</workAmount>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 		<ingredients>
 			<li>
 				<filter>
@@ -250,6 +252,9 @@
 			<li>ExoskeletonSuit</li>
 		</incompatibleWithHediffTags>
         <researchPrerequisite>Prosthesis_install_E1</researchPrerequisite>
+		<skillRequirements>
+			<Medicine>15</Medicine>
+		</skillRequirements>
 	</RecipeDef>
 
 	<RecipeDef ParentName="SK_SurgeryRemoveImplantBase">
